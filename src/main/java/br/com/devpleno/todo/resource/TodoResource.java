@@ -21,7 +21,7 @@ import br.com.devpleno.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 public class TodoResource {
 	
 	@Autowired
